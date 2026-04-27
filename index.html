@@ -14,7 +14,7 @@
 
     <div class="avatar">
       <img
-        src="https://www.khanacademy.org/images/avatars/svg/aqualine-sapling.svg"
+         id="pic" src="https://www.khanacademy.org/images/avatars/svg/aqualine-sapling.svg"
         width="150"
       />
       <h1>Aqualine</h1>
@@ -25,22 +25,40 @@
     
       // ======================== Button #1
       $("#button1").click(function () {
-       
+     $("#pic").animate({
+     width: "230px",
+    
+     });
+
       });
 
       // ======================== Button #2
       $("#button2").click(function () {
-     
+     $("#pic").animate({
+      width: "100px",
+      marginLeft: "60px",
+
+     })
       });
 
       // ======================== Button #3
       $("#button3").click(function () {
-    
+        $("#pic").animate({
+      width: "100px",
+      marginLeft: "100px",
+
+     })
       });
 
        // ======================== Button #3
       $("#button4").click(function () {
     
+  $("#pic").animate({
+      width: "200px",
+      mardinDown: "50px",
+
+     })
+
       });
     
     
